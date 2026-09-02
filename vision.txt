@@ -1,0 +1,11 @@
+change the header font style
+add cute frame for the navs
+change the background into library 
+add background to the content of the site
+add gifs ?
+
+add cute grid or frame for each book
+add rate
+add page top books
+add cover to the books
+add books
