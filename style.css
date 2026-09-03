@@ -351,145 +351,17 @@ footer {
 }
 
 @media (max-width: 700px) {
-    body {
-        padding-top: 92px;
-        background-size: 100% auto, 100% auto;
-        background-position: center top, center 222px;
-    }
-
-    .header {
-        width: auto;
-        margin: 22px 18px 30px;
-        padding: 0;
-    }
-
-    .header .subtitle {
-        max-width: calc(100% - 70px);
-        font-size: clamp(22px, 7vw, 30px);
-        line-height: 1.1;
-    }
-
-    .books-gif {
-        top: 18px;
-        right: 14px;
-        width: 78px;
-    }
-
-    .star-gif {
-        width: 52px;
-    }
-
-    .stargifA {
-        top: 8px;
-        right: 6px;
-    }
-
-    .stargifB {
-        top: 135px;
-        right: 18px;
+    .books-grid {
+        grid-template-columns: 1fr;
     }
 
     .MAINMENU-NAV {
         flex-direction: column;
         align-items: center;
-        gap: 14px;
-        padding: 0 16px;
+        gap: 12px;
     }
 
-    .MAINMENU-NAV a,
-    .MAINMENU-NAV a:hover,
-    .MAINMENU-NAV-ABOUT a,
-    .MAINMENU-NAV-ABOUT a:hover {
-        width: min(42vw, 150px);
-        height: min(63vw, 225px);
-        margin: 0;
-        background-image: url("fotok/buku.png");
-        background-size: cover;
-        background-position: center;
-    }
-
-    .MAINMENU-NAV a span,
-    .MAINMENU-NAV-ABOUT a span {
-        max-width: 75%;
-        margin-left: 0;
-        font-size: clamp(18px, 5.5vw, 25px);
-        line-height: 1;
-    }
-
-    .MAINMENU-NAV a:hover span,
-    .MAINMENU-NAV-ABOUT a:hover span {
-        margin: 0;
-    }
-
-    .about-layout {
-        flex-direction: column;
-        gap: 24px;
-    }
-
-    .MAINMENU-NAV-ABOUT {
-        align-items: center;
-        gap: 14px;
-        margin: 0;
-    }
-
-    .main {
-        width: 100%;
-        padding: 0 16px 30px;
-    }
-
-    #about,
-    #read,
-    #to-be-read {
-        width: 100%;
-        margin: 0;
-    }
-
-    #about {
-        height: auto;
-        min-height: 0;
-        padding: 58px 28px 36px;
-        background-size: 100% 100%;
-    }
-
-    #about h2,
-    #about p {
-        position: static;
-    }
-
-    #about h2 {
-        margin: 0 0 24px;
-        font-size: clamp(32px, 10vw, 50px);
-    }
-
-    #about p {
-        margin: 0 0 18px;
-        font-size: 16px;
-    }
-
-    #read,
-    #to-be-read {
-        padding: 24px 16px;
-    }
-
-    #read h2,
-    #to-be-read h2 {
-        left: 0;
-        margin: 0 0 24px;
-        font-size: clamp(28px, 8vw, 40px);
-        line-height: 1.1;
-    }
-
-    .books-grid {
-        grid-template-columns: 1fr;
-        gap: 16px;
-    }
-
-    .book-card {
-        padding: 14px;
-    }
-
-    .book-cover {
-        height: auto;
-        max-height: 300px;
+    .header h1 {
+        font-size: 36px;
     }
 }
