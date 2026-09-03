@@ -354,12 +354,13 @@ footer {
     body {
         padding-top: 100px;
         background-position: center 5px, center 500px;
+        background-size: auto 500px, auto 500px;
     }
 
     .header {
         width: calc(100% - 32px);
-        margin: 20px auto 24px;
-        padding: 10px 0;
+        margin: 34px auto 28px;
+        padding: 10px 0 0;
     }
 
     .header .subtitle {
@@ -367,9 +368,9 @@ footer {
     }
 
     .books-gif {
-        top: 24px;
-        right: 16px;
-        width: 100px;
+        top: 18px;
+        right: 10px;
+        width: 76px;
     }
 
     .star-gif {
@@ -387,8 +388,11 @@ footer {
     }
 
     .MAINMENU-NAV {
-        gap: 12px;
-        padding: 0 16px;
+        display: grid;
+        grid-template-columns: repeat(2, 120px);
+        justify-content: center;
+        gap: 14px;
+        padding: 0 12px;
     }
 
     .MAINMENU-NAV a {
@@ -499,5 +503,16 @@ footer {
     .book-cover {
         height: auto;
         max-height: 300px;
+    }
+}
+
+@media (max-width: 280px) {
+    .MAINMENU-NAV {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .MAINMENU-NAV a,
+    .MAINMENU-NAV a:hover {
+        width: 100%;
     }
 }
