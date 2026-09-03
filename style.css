@@ -388,10 +388,10 @@ footer {
     }
 
     .MAINMENU-NAV {
-        display: grid;
-        grid-template-columns: repeat(2, 120px);
-        justify-content: center;
-        gap: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
         padding: 0 12px;
     }
 
@@ -419,8 +419,9 @@ footer {
     }
 
     .MAINMENU-NAV-ABOUT {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         gap: 10px;
         margin: 0 auto;
         padding: 0 16px;
@@ -430,15 +431,15 @@ footer {
 
     .MAINMENU-NAV-ABOUT a,
     .MAINMENU-NAV-ABOUT a:hover {
-        width: 100%;
-        height: 150px;
+        width: 120px;
+        height: 180px;
         margin: 0;
     }
 
     .MAINMENU-NAV-ABOUT a span {
-        max-width: 70px;
-        margin-left: 12px;
-        font-size: 19px;
+        max-width: 80px;
+        margin-left: 16px;
+        font-size: 20px;
     }
 
     .MAINMENU-NAV-ABOUT a:hover span {
@@ -503,16 +504,5 @@ footer {
     .book-cover {
         height: auto;
         max-height: 300px;
-    }
-}
-
-@media (max-width: 280px) {
-    .MAINMENU-NAV {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .MAINMENU-NAV a,
-    .MAINMENU-NAV a:hover {
-        width: 100%;
     }
 }
