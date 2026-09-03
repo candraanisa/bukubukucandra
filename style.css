@@ -398,6 +398,8 @@ footer {
     .MAINMENU-NAV a {
         width: 120px;
         height: 180px;
+        background-size: 100% 100%;
+        background-position: center;
     }
 
     .MAINMENU-NAV a span {
@@ -410,6 +412,9 @@ footer {
         width: 120px;
         height: 180px;
         margin-left: 0;
+        background-image: url("fotok/buku.png");
+        background-size: 100% 100%;
+        background-position: center;
     }
 
     .about-layout {
@@ -434,6 +439,9 @@ footer {
         width: 120px;
         height: 180px;
         margin: 0;
+        background-image: url("fotok/buku.png");
+        background-size: 100% 100%;
+        background-position: center;
     }
 
     .MAINMENU-NAV-ABOUT a span {
